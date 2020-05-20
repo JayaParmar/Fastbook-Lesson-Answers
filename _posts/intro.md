@@ -66,7 +66,7 @@ Model parameters
 
 ## Draw a picture that summarizes Arthur Samuel's view of a machine learning model
 
-![](/images/intro/image1.png)
+![](https://raw.githubusercontent.com/JayaParmar/Fastbook-Lesson-Answers/master/intro/media/image1.png)
 
 ## What is the name of the theorem that a neural network can solve any mathematical problem to any level of accuracy?
 
