@@ -72,15 +72,15 @@ The independent variable is often referred to as x and the dependent variable is
 
 Crop *crops* the images to fit a square shape of the size requested, using the full width or height. Full height in this image.
 
-![](/images/production/image3.png)
+![](/images/crop.png)
 
 Crop can result in losing some important details. Pad the images with zeros (black) to retain the details. See below the bear had two babies. :)
 
-![](/images/production/image1.png)
+![](/images/pad.png)
 
 Squish will squish or stretch the image retaining the details but will look a bit unrealistic.
 
-![](/images/production/image5.png)
+![](/images/squish.png)
 
 In practice, we randomly select part of the image, and crop to just that part. On each epoch (which is one complete pass through all of our images in the dataset) we randomly select a different part of each image. This means that our model can learn to focus on, and recognize, different features in our images. It also reflects how images work in the real world: different photos of the same thing may be framed in slightly different ways.
 
@@ -102,7 +102,7 @@ It is a matrix to see the mistakes our model made. For example if the model is g
 
 In the diagram below, each row represents all the black, grizzly, and teddy bears in our *dataset*, respectively. Each column represents the images which the model *predicted* as black, grizzly, and teddy bears, respectively.
 
-![](/images/production/image2.png)
+![](/images/confusion%20matrix.png)
 
 ## What does export save?
 
