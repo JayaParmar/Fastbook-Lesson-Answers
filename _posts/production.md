@@ -72,7 +72,7 @@ The independent variable is often referred to as x and the dependent variable is
 
 Crop *crops* the images to fit a square shape of the size requested, using the full width or height. Full height in this image.
 
-![](/images/crop.png)
+![](/images/crop.PNG)
 
 Crop can result in losing some important details. Pad the images with zeros (black) to retain the details. See below the bear had two babies. :)
 
