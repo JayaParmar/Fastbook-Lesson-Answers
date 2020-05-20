@@ -28,7 +28,7 @@ Deep learning model only tells you what products a particular user might like, r
 
 ## What are the steps of the Drivetrain approach?
 
-![](/images/drivetrain steps.png)
+![](/images/drivetrain%20steps.PNG)
 
 ## How do the steps of the Drivetrain approach map to a recommendation system?
 
