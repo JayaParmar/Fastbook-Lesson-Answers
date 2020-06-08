@@ -235,3 +235,6 @@ nn.ReLU is a PyTorch module that does exactly the same thing as the F.relu funct
 The reason is performance. With a deeper model (that is, one with more layers) we do not need to use as many parameters; it turns out that we can use smaller matrices with more layers, and get better results than we would get with larger matrices, and few layers.
 
 ## Complete all the steps in this chapter using the full MNIST datasets (that is, for all digits, not just 3s and 7s). This is a significant project and will take you quite a bit of time to complete\! You'll need to do some of your own research to figure out how to overcome some obstacles you'll meet on the way.
+
+See the solution on https://github.com/JayaParmar/Deep-Learning/blob/master/mnist%200-9%20digits.ipynb
+Learner needs to be fixed for the error.
