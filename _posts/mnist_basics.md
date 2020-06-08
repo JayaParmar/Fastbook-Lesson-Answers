@@ -216,7 +216,7 @@ p.grad.zero\_()
 
 ReLU is a Rectified Linear Unit. In other words, a function that replaces every negative number with a zero.
 
-![](name//media/image2.png)
+![](/images/relu.png)
 
 ## What is an "activation function"?
 
