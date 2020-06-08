@@ -118,7 +118,7 @@ The gradient of a function is its slope. Accuracy only changes at all when a pre
 
 ## Draw the sigmoid function. What is special about its shape?
 
-![](name//media/image1.png)
+![](/images/sigmoid.png)
 
 The sigmoid function always outputs a number between 0 and 1.
 
