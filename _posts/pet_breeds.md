@@ -244,7 +244,7 @@ with zipfile.ZipFile("flowers-recognition.zip","r") as zip\_ref: zip\_ref.extrac
 
 Image transformation might introduce a spurious empty zone or create reflection. For example, in the bottom image the image on the right is less well defined and has reflection padding artifacts in the bottom-left corner; also, the grass at the top left has disappeared entirely.
 
-![](name//media/image1.png)
+![](/images/bear_transform.png)
 
 ## What method does fastai provide to view the data in a DataLoaders?
 
