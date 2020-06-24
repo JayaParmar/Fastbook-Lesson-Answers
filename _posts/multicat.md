@@ -178,11 +178,11 @@ See the retrained bear classifier [**<span class="underline">multicat\_bears.ipy
 
 One of the images contained a person but the classifier rightly predicted it as teddy since the person is wearing a teddy bear costume. (Label in first row is target and labels in second row are predictions)
 
-![](name//media/image1.png)
+![](images//media/person.png)
 
 This image had two different kinds of bears (the black bear is not completely visible due to image cropping to 35%). The model has accurately predicted both grizzly and black for an image that was labeled grizzly in the single-label dataset.
 
-![](name//media/image2.png)
+![](images//media/twobears.png)
 
 Another interesting observation is that when the model is not sure of the image, it predicts all labels it is unsure of. In our dataset, labels like book, crown, elephant, cat, light and stick have appeared only once. Hence the model has not got a chance to train sufficiently to learn to identify these labels.
 
