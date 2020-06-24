@@ -2,13 +2,13 @@
 
   Do you need these for deep learning?
 
-  Lots of math T / F
+    Lots of math T / F
 
-  Lots of data T / F
+    Lots of data T / F
 
-  Lots of expensive computers T / F
+    Lots of expensive computers T / F
 
-  A PhD T / F
+    A PhD T / F
 
 You need none of these.
 
