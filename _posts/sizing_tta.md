@@ -101,9 +101,9 @@ You should aim to have an iteration speed of no more than a couple of minutes.
 
 If it's taking longer to do an experiment, think about how you could
 
-  - > cut down your dataset, or
+  -  cut down your dataset, or
 
-  - > simplify your model,
+  -  simplify your model,
 
 to improve your experimentation speed.
 
@@ -121,11 +121,11 @@ The first paper [<span class="underline">Bag of Tricks for Image Classification 
 
 The second paper [<span class="underline">\[1907.13037\] Efficient Method for Categorize Animals in the Wild</span>](https://arxiv.org/abs/1907.13037) uses
 
-  - > data augmentation techniques like image transformation, CLAHE (Contrast Adaptive Histogram Equalization) and grayscale
+  -  data augmentation techniques like image transformation, CLAHE (Contrast Adaptive Histogram Equalization) and grayscale
 
-  - > regularization techniques like cutout, mixup and label smoothing to improve generalization of the model.
+  -  regularization techniques like cutout, mixup and label smoothing to improve generalization of the model.
 
-  - > Ensemble learning is finally used to improve the performance of the model.
+  -  Ensemble learning is finally used to improve the performance of the model.
 
 Source code [<span class="underline">https://github.com/Walleclipse/iWildCam\_2019\_FGVC6</span>](https://github.com/Walleclipse/iWildCam_2019_FGVC6)
 
