@@ -24,7 +24,7 @@ Collaborative filtering predictive models fail to be a very useful recommendatio
 
 A crosstab representation is an array of rows and columns where each row is one user and each column is one item. For a movie dataset, the cross tab representation would look like below
 
-![](name//media/image1.png)
+![](/images/crosstab%20representation.PNG)
 
 ## Write the code to create a crosstab representation of the MovieLens data (you might need to do some web searching\!)
 
@@ -74,7 +74,7 @@ X\[:,0\] returns a batches of 64 users picked up from the dataset variable dls
 
 A sample batch looks like this where these numbers are user ids
 
-![](name//media/image2.png)
+![](/images/userid.PNG)
 
 ## Rewrite the DotProduct class (without peeking, if possible\!) and train a model with it.
 
