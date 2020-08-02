@@ -146,7 +146,7 @@ We would want to be more cautious of using the results for rows where trees give
 
 We take that one row of data and put it through the first decision tree, looking to see what split is used at each point throughout the tree (for instance, see the waterfall chart prediction for the first row below). For each split, we see what the increase or decrease in the addition is, compared to the parent node of the tree. We do this for every tree, and add up the total change in importance by the split variable.
 
-![](tabular/media/image1.png)
+![](/images/waterfall.png)
 
 ## Which columns are the strongest predictors?
 
