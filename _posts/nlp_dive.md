@@ -60,7 +60,7 @@ If we order the text to the model in order, those text sequences will be read in
 
 ## What is an "unrolled" representation of an RNN?
 
-![](name//media/image2.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/unrolled%20RNN.png)
 
 ## Why can maintaining the hidden state in an RNN lead to memory and performance problems? How do we fix this problem?
 
@@ -110,7 +110,7 @@ We stack to save a sequence of previous hidden layers which will be used as inpu
 
 ## Draw a representation of a stacked (multilayer) RNN.
 
-![](name//media/image1.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/stacked%20RNN.png)
 
 ## Why should we get better results in an RNN if we call detach less often? Why might this not happen in practice with a simple RNN?
 
