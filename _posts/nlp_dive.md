@@ -280,7 +280,7 @@ return self.h\_o(h)
 
 ## Search the internet for the GRU architecture and implement it from scratch, and try training a model. See if you can get results similar to those we saw in this chapter. Compare you results to the results of PyTorch's built in GRU module.
 
-![](images/GRU.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/GRU.png)
 
 Please see my implementation [<span class="underline">here</span>](https://github.com/JayaParmar/Deep-Learning/blob/master/GRU.ipynb)
 
