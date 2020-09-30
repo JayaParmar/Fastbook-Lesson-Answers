@@ -100,7 +100,7 @@ W=weight of input image
 
 MNIST CNN model summary below
 
-![](name//media/image2.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/model_summary.PNG)
 
 Output shape of the second layer is the input shape of the third layer. In our case it is 64X8X7X7.
 
@@ -120,7 +120,7 @@ The general formula of size of receptive field of an activation is -
 
 In our example,
 
-![](name//media/image7.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/convolution.PNG)
 
 At convolution 1,
 
@@ -156,7 +156,7 @@ Excel file can be downloaded from below link and trace precedents can be run on 
 
 ## Have a look at Jeremy or Sylvain's list of recent Twitter "like"s, and see if you find any interesting resources or ideas there.
 
-![](name//media/image6.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/tweet.PNG)
 
 ## How is a color image represented as a tensor?
 
@@ -208,9 +208,9 @@ learn.progressCallback
 
 ## What are the three statistics plotted by plot\_layer\_stats? What does the x-axis represent?
 
-Believe it is the number of activations at that layer number
+Believe x-axis represents the number of activations at that layer number
 
-![](name//media/image3.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/activation_stats.PNG)
 
 ## Why are activations near zero problematic?
 
@@ -244,7 +244,7 @@ Once we have found a nice smooth area for our parameters, we want to find the ve
 
 Cyclical momentum is the momentum of the model which follows the cyclical learning rate but in the opposite direction. The momentum is high in the beginning when the learning rate is low. When we increase the learning rate, the momentum starts coming down and finally goes up again when the learning rate is decreased again.
 
-![](name//media/image1.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/momentum.PNG)
 
 ## What callback tracks hyperparameter values during training (along with other information)?
 
@@ -254,11 +254,11 @@ Recorder callback tracks hyperparameter values during training. See for example 
 
 Vertical axis or column represents a group (bin) of activation values. Each column in the horizontal axis is a batch. The colours represent how many activations for that batch have a value in that bin.
 
-![](name//media/image4.jpg)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/color_dim.jpeg)
 
 ## What does "bad training" look like in color\_dim? Why?
 
-![](name//media/image5.png)
+![](https://github.com/JayaParmar/DeepLearning_posts/blob/master/images/bad%20training.png)
 
 We start with nearly all activations at zero—that's what we see at the far left, with all the dark blue. The bright yellow at the bottom represents the near-zero activations. Then, over the first few batches we see the number of nonzero activations exponentially increasing. But it goes too far, and collapses\! We see the dark blue return, and the bottom becomes bright yellow again. It almost looks like training restarts from scratch. Then we see the activations increase again, and collapse again. After repeating this a few times, eventually we see a spread of activations throughout the range.
 
