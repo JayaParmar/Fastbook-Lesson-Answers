@@ -348,20 +348,3 @@ Putting it after the activation function gives higher accuracy in our cse.
 
 More information on this link [<span class="underline">https://discuss.pytorch.org/t/batch-normalization-of-linear-layers/20989/12</span>](https://discuss.pytorch.org/t/batch-normalization-of-linear-layers/20989/12)
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-#
